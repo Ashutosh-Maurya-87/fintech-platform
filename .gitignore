@@ -1,0 +1,78 @@
+# ==========================================
+# DEPENDENCIES
+# ==========================================
+# Node modules for root, frontend, and backend
+node_modules/
+**/node_modules/
+
+# ==========================================
+# ENVIRONMENT VARIABLES & SECRETS
+# ==========================================
+# Protects your MongoDB URI, API keys, and passwords
+.env
+**/ .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================================
+# BUILD OUTPUTS & PRODUCTION FILES
+# ==========================================
+# Vite / React build outputs
+dist/
+**/dist/
+build/
+**/build/
+
+# ==========================================
+# SYSTEM & EDITOR LOGS
+# ==========================================
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE configuration files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Logs and runtime data
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Coverage directories used by testing tools
+coverage
+*.nyc_output
+
+# Logs
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
