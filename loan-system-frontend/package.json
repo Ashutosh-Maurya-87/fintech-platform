@@ -1,5 +1,6 @@
 {
   "name": "loan-system",
+  "author": "Ashutosh Maurya",
   "private": true,
   "version": "0.0.0",
   "type": "module",
